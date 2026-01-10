@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Menú de Hoy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8f8f8;
+            background-color: #f6f6f6;
             margin: 0;
             padding: 0;
         }
-        .container {
-            max-width: 600px;
+        .contenedor {
+            max-width: 700px;
             margin: auto;
-            background: white;
+            background-color: #ffffff;
             padding: 20px;
         }
         h1, h2 {
@@ -22,84 +23,9 @@
         }
         .mensaje {
             text-align: center;
-            margin-bottom: 20px;
             font-weight: bold;
+            margin-bottom: 20px;
         }
         .seccion {
             margin-top: 25px;
         }
-        .item {
-            display: flex;
-            justify-content: space-between;
-            padding: 6px 0;
-            border-bottom: 1px dotted #ccc;
-        }
-        .precio {
-            font-weight: bold;
-        }
-        .combo {
-            background-color: #f1f1f1;
-            padding: 10px;
-            margin-top: 10px;
-            border-radius: 5px;
-        }
-        footer {
-            text-align: center;
-            margin-top: 30px;
-            font-size: 14px;
-            color: #555;
-        }
-    </style>
-</head>
-<body>
-
-<div class="container">
-    <h1>🍽️ Menú de Hoy</h1>
-
-    <p class="mensaje">
-        ¡Buen día!<br>
-        Mándanos mensajito al WhatsApp 📲<br>
-        Pronto abriremos nuestra barra de ensaladas 🥗<br><br>
-        🚗 Hacemos pedidos a domicilio
-    </p>
-
-    <div class="seccion">
-        <h2>🥪 Sándwiches</h2>
-        <div class="item"><span>Sándwich de salchicha</span><span class="precio">$30</span></div>
-        <div class="item"><span>Sándwich de huevo</span><span class="precio">$30</span></div>
-        <div class="item"><span>Sándwich de huevo con salchicha</span><span class="precio">$35</span></div>
-        <div class="item"><span>Sándwich sencillo</span><span class="precio">$25</span></div>
-    </div>
-
-    <div class="seccion">
-        <h2>🥞 Hotcakes</h2>
-        <div class="item"><span>Orden de Mini Hotcakes (4 pz)</span><span class="precio">$55</span></div>
-        <div class="item"><span>Mini hotcake (1 pz)</span><span class="precio">$15</span></div>
-    </div>
-
-    <div class="seccion">
-        <h2>☕ Bebidas</h2>
-        <div class="item"><span>Café</span><span class="precio">$20</span></div>
-        <div class="item"><span>Café con leche</span><span class="precio">$25</span></div>
-    </div>
-
-    <div class="seccion">
-        <h2>🔥 Combos pa' ir comiendo</h2>
-        <div class="combo">
-            ☕🥪 Café + Sándwich sencillo <strong>$45</strong>
-        </div>
-    </div>
-
-    <div class="seccion">
-        <h2>🌶️ Chilaquiles</h2>
-        <div class="item"><span>Chicos</span><span class="precio">$50</span></div>
-        <div class="item"><span>Grandes</span><span class="precio">$89</span></div>
-    </div>
-
-    <footer>
-        ¡Gracias por su preferencia! 🙌
-    </footer>
-</div>
-
-</body>
-</html>
